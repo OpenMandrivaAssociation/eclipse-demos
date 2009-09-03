@@ -1,6 +1,6 @@
 Name:           eclipse-demos
 Version:        0.0.1
-Release:        %mkrel 0.2.1
+Release:        %mkrel 0.2.2
 Summary:        Eclipse demonstration screencasts
 
 Group:          Development/Java
