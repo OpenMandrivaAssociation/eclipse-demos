@@ -32,3 +32,32 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_datadir}/%{name}-%{version}/openpub.html
 %{_datadir}/%{name}-%{version}/*.ogg
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.0.1-0.2.3mdv2011.0
++ Revision: 617996
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.0.1-0.2.2mdv2010.0
++ Revision: 428503
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.0.1-0.2.1mdv2009.0
++ Revision: 140723
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Thu Oct 18 2007 David Walluck <walluck@mandriva.org> 0.0.1-0.2.1mdv2008.1
++ Revision: 100030
+- import eclipse-demos
+
+
+* Tue Sep 25 2007 Andrew Overholt <overholt@redhat.com> 0.0.1-2
+- Drop totem requirement (one can use any number of players).
+- Fix license to be "Open Publication".
+
+* Mon Sep 24 2007 Andrew Overholt <overholt@redhat.com> 0.0.1-1
+- Initial release.
