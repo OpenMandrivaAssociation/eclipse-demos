@@ -5,7 +5,7 @@ Summary:        Eclipse demonstration screencasts
 
 Group:          Development/Java
 License:        Open Publication
-URL:            http://sources.redhat.com/eclipse
+URL:            https://sources.redhat.com/eclipse
 Source0:        http://overholt.fedorapeople.org/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
